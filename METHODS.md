@@ -20,7 +20,7 @@ Source counts in the supplied file were:
 
 The analysis used the `PAVS-Saudi` and `DDD` subsets.
 
-The HPO ontology file supplied with the analysis was used for the ontology-aware BMA/Resnik sensitivity analysis.
+The HPO ontology file  was used for the ontology-aware BMA/Resnik sensitivity analysis.
 
 ## 3. HPO parsing
 
@@ -244,31 +244,16 @@ seed = 42
 
 This preserves the score structure while destroying the original case-to-causal-gene assignment.
 
-## 17. Reproducibility
 
-The final run records:
+ 
 
-- input filenames;
-- SHA-256 hashes;
-- software versions;
-- Python version;
-- random seeds;
-- cross-validation settings;
-- cohort sizes.
-
-These values are written to:
-
-```text
-results/run_manifest.json
-```
-
-## 18. Statistical interpretation
+## 17. Statistical interpretation
 
 The study emphasizes effect size, rank-based performance, paired confidence intervals, and permutation testing rather than relying only on a single p-value.
 
 The results are interpreted as evidence for an observed phenotype–gene transfer signal within the analyzed data, not as proof of clinical effectiveness.
 
-## 19. Scope of inference
+## 18. Scope of inference
 
 The experimental design evaluates cases whose causal genes are represented in the training cohort.
 
