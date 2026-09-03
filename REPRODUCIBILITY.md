@@ -14,7 +14,7 @@ The main research record is:
 Regional_Phenotype_Gene_Transfer_Study.ipynb
 ```
 
-The notebook should be saved after all cells have executed successfully.
+ 
 
 ## Input files
 
