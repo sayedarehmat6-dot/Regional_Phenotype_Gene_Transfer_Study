@@ -22,7 +22,7 @@ The analysis used a supplied case-level PAVS dataset containing:
 
 The phenotype annotations were represented using Human Phenotype Ontology (HPO) identifiers.
 
-The HPO ontology file used for the ontology-aware analysis was the supplied `hp-base.obo` release. The exact input-file hashes used for a run are recorded in `results/run_manifest.json`.
+The HPO ontology file used for the ontology-aware analysis was the supplied `hp-base.obo` release. 
 
 Patient-level data are not redistributed in this repository.
 
@@ -75,8 +75,6 @@ Regional_Phenotype_Gene_Transfer_Study/
 ├── REPRODUCIBILITY.md
 ├── Regional_Phenotype_Gene_Transfer_Study.ipynb
 │
-├── code/
-│   └── final_analysis.py
 │
 ├── results/
 │   ├── aggregate_metrics.csv
@@ -86,7 +84,6 @@ Regional_Phenotype_Gene_Transfer_Study/
 │   ├── paired_direction_and_permutation.csv
 │   ├── sparse_hpo_metrics.csv
 │   ├── ddd_size_match_sensitivity.csv
-│   ├── run_manifest.json
 │   └── bma_ontology_aware/
 │
 └── figures/
@@ -98,7 +95,6 @@ The primary analysis record is the executed Google Colab notebook.
 
 Run the notebook from top to bottom using the permitted input files. The notebook shows the data checks, cohort construction, model fitting, evaluation, statistical tests, sensitivity analyses, and figures in sequence.
 
-The Python analysis file in `code/` contains the corresponding standalone analysis implementation.
 
 ## Research status
 
