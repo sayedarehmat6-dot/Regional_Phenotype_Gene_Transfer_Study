@@ -1,0 +1,2 @@
+condition,n,rankable_n,Recall@1_pct,Recall@5_pct,Recall@10_pct,Recall@20_pct,MRR,MedianRank
+Saudi BMA/Resnik,511,511,49.11937377690802,70.45009784735812,80.43052837573386,90.99804305283757,0.5959071718681175,2.0

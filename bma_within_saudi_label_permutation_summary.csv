@@ -1,0 +1,2 @@
+metric,observed_pct,null_mean_pct,null_sd_pct,null_95th_percentile,null_99_5th_percentile,empirical_one_sided_p
+Recall@5,70.45009784735812,9.910308014467923,2.932134096172698,14.705882352941178,17.647058823529413,3.999840006399744e-05
